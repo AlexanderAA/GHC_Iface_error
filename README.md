@@ -7,17 +7,15 @@ GHC 7.6.3 Bug (?)
  * Compile the project again - fails when trying to recompile just Main.hs
  
 Error message:
-------------------------------------------------------
-<code>
+<pre>
 Declaration for Doc:
   Iface type variable out of scope:  k
-</code>
+</pre>
 
 
 
 Full output:
-------------------------------------------------------
-<code>
+<pre>
 $ cabal install
 Resolving dependencies...
 Configuring someapp-0.1...
@@ -32,5 +30,4 @@ Failed to install someapp-0.1
 cabal: Error: some packages failed to install:
 someapp-0.1 failed during the building phase. The exception was:
 ExitFailure 1
-
-</code>
+</pre>
