@@ -1,0 +1,20 @@
+name: someapp
+version: 0.1
+cabal-version: >=1.2
+build-type: Simple
+license: AllRightsReserved
+license-file: ""
+synopsis: Application showing unexpected behavior
+data-dir: ""
+
+executable ifaceError
+    build-depends:  
+                    base -any,
+                    ghc -any
+                    
+    main-is: Main.hs
+    buildable: True
+    hs-source-dirs: /home/a/Projects/extensibl/GHC_Iface_error
+    ghc-options: -Wall
+
+

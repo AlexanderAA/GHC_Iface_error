@@ -1,5 +1,9 @@
 module Main (
     main
 ) where
+import Types
 
-import AnotherModule (main)
+main :: IO ()
+main = do
+    let a = Doc BA BB
+    print "abcnz"
