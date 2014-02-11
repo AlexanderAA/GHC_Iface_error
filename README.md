@@ -8,14 +8,16 @@ GHC 7.6.3 Bug (?)
  
 Error message:
 ------------------------------------------------------
+<code>
 Declaration for Doc:
   Iface type variable out of scope:  k
-
+</code>
 
 
 
 Full output:
 ------------------------------------------------------
+<code>
 $ cabal install
 Resolving dependencies...
 Configuring someapp-0.1...
@@ -30,3 +32,5 @@ Failed to install someapp-0.1
 cabal: Error: some packages failed to install:
 someapp-0.1 failed during the building phase. The exception was:
 ExitFailure 1
+
+</code>
